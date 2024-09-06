@@ -8,6 +8,8 @@
             resource="org/springframework/boot/logging/logback/console-appender.xml"/>
     <timestamp key="today" datePattern="yyyy-MM-dd"/>
     <property name="LOG_FILE" value="web"/>
+    <property name="LOG_PATH" value="/home/test/running/log_daily"/>
+
 
     <appender name="FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
